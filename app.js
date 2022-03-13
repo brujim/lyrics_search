@@ -46,7 +46,6 @@ const fetchSongs = async term => {
 const handleFormSubmit = event => {
     event.preventDefault();
 
-    //Método trim() remove espaços em branco do começo e do final da string
     const searchTerm = searchInput.value.trim();
     searchInput.value = '';
     searchInput.focus();
